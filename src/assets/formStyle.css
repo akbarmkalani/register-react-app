@@ -1,0 +1,110 @@
+body {
+    background-color: #282F38;
+  }
+  
+  
+  #from>div {
+    position: relative;
+    margin-bottom: 30px;
+  }
+  
+  #from>div>input {
+    position: relative;
+    border: none;
+    outline: none;
+    background: none;
+    border-bottom: 1px solid #818a96;
+    /*     height: 50px; */
+    /* padding: 10px 0; */
+  
+    color: #1cbcd4;
+    letter-spacing: 3px;
+    transition: .4s;
+  }
+  
+  
+  #from>div:hover>label {
+    color: #1cbcd4;
+  }
+  
+  #from>div:hover>label>span {
+    transform: translateY(-15px);
+  }
+  
+  #from>div>input:focus {
+    border-bottom: 1px solid #1cbcd4;
+    /*  transform: translateY(25px);  */
+  }
+  
+  #from>div>input:nth-of-type(5) {
+    transform: translateY(0);
+  }
+  
+  
+  #from>div>label {
+    color: #eceef2;
+  
+    text-transform: uppercase;
+    letter-spacing: 3px;
+  
+  }
+  
+  #from>div>label>span {
+    position: relative;
+    display: inline-flex;
+    letter-spacing: 0.15em;
+    transition: 0.4s ease-in-out;
+  
+  
+  }
+  
+  .label {
+    letter-spacing: 0.15em !important;
+    transform: translateY(-20px);
+    color: #1cbcd4;
+  }
+  
+  /* #from>div>input:focus ~ label>span{
+  
+    letter-spacing: 0.15em;
+   transform: translateY(-15px);
+   color: #1ece4a;
+  }  */
+  
+  
+  .title {
+    color: #eceef2;
+  
+  }
+  
+  #from>div>p {
+    color: #eceef2;
+    position: absolute;
+    left: 0;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding: 10px 0;
+    padding-left: 15px !important;
+  }
+  
+  
+  #from>div>button {
+    background-color: #1cbcd4;
+    padding: 10px 0;
+    width: 170px;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    border-radius: 15px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    transition: .4s;
+  }
+  
+  #from>div>button:hover {
+    letter-spacing: 0.33em;
+  
+  }
+
+
+  

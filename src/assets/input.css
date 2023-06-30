@@ -1,0 +1,14 @@
+.formField  {
+    color: #ec100c;
+    background-color: hsla(1, 22%, 38%, 0.341);
+  }
+
+  .completed{
+      border: 1px solid #088295;
+     /*  width: 100%;
+      margin: 0 auto; */
+  }
+
+  .uncompleted{
+        border: 1px solid #871b19;
+  }
